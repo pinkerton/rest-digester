@@ -1,6 +1,6 @@
-# undoc
+# REST Digester
 
-Automagically generate documentation for closed REST APIs, just by using their app.
+Automagically generate docs for apps' closed REST APIs 
 
 ## Getting started
 
