@@ -1,5 +1,9 @@
-{% extends 'base.html' %}
-{% set title = 'Setup' %}
-{% block content %}
-<p>Set up mitm</p>
+{% extends 'base.html' %} {% set title = 'Setup' %} {% block content %}
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="alert alert-warning" role="alert">Install mitmproxy <div class="pull-right"><fa class="fa fa-check"></fa> </div></div>
+        <div class="alert alert-warning" role="alert">Generate certificate <div class="pull-right"><fa class="fa fa-check"></fa> </div></div>
+        <div class="alert alert-warning" role="alert">Start intercepting traffic <div class="pull-right"><fa class="fa fa-check"></fa> </div></div>
+    </div>
+</div>
 {% endblock %}

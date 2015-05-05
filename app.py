@@ -42,7 +42,7 @@ def endpoints():
 
 @app.route('/requests')
 def live_requests():
-    return render_template('requests.html')
+    return render_template('requests.html', endpoint=None)
 
 if __name__ == "__main__":
     # mitmproxy -w two.out "~d api\.zondr\.com"    
