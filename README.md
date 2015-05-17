@@ -32,6 +32,6 @@ If you run into any issues running mitmproxy, [this page](https://github.com/dut
 https://github.com/apiaryio/curl-trace-parser
 
 ## Resources
-[Reversing the Kayak app](http://www.shubhro.com/2014/12/18/reverse-engineering-kayak-mitmproxy/)
-
-[Faking an app that receives requests](https://github.com/mitmproxy/mitmproxy/blob/master/examples/proxapp.py)
+ * [Reversing the Kayak app](http://www.shubhro.com/2014/12/18/reverse-engineering-kayak-mitmproxy/)
+ * [Faking an app that receives requests](https://github.com/mitmproxy/mitmproxy/blob/master/examples/proxapp.py)
+ * [Bootstrap snippet](http://bootsnipp.com/snippets/featured/panel-table-with-filters-per-column)

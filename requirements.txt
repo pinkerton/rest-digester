@@ -1,2 +1,4 @@
 mitmproxy
 docopt==0.6.1
+flask_socketio
+pyzmq

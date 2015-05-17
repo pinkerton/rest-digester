@@ -1,4 +1,17 @@
 {% extends 'base.html' %} {% set title = 'Endpoints' %} {% block content %}
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('connect', function() {
+        socket.emit('ready2go', {data: 'pls'});
+    });
+
+    socket.on('connect', function() {
+        socket.emit('connect', {data: 'pls'});
+    });
+</script>
+
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <!--The columns titles are merged with the filters inputs thanks to the placeholders attributes-->
